@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tahoma';
+}
+
+main {
+    padding: 1.5rem;
+    border-radius: 0.4rem;
+    margin-top: 3rem;
+    max-width: 600px;
+    background-color: #abcdfb;
+}
+
+button, input {
+    border-radius: 0.6rem;
+    padding: 1rem;
+    border: 1px solid #a1a1a1;
+    margin: 2px 0 2px 0;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+#connect-group {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1.5rem;
+}
+
+#connect-btn {
+    background-color: #008800;
+    color: #ffffff;
+}
+
+#disconnect-btn {
+    background-color: #880000;
+    color: #ffffff;
+    display: none;
+}
+
+#current-balance-group, #current-deposit-group {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0.4rem;
+    font-size: 0.8rem;
+}
+
+input, #deposit-btn, #withdraw-btn {
+    width: 100%;
+}
+
+#deposit-btn, #withdraw-btn {
+    background-color: #2063ff;
+    color: #ffffff;
+}

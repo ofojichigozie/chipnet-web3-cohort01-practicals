@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link href="style.css" rel="stylesheet">
+    <title>Funds Vault DApp</title>
+</head>
+<body>
+    <main>
+        <div id="connect-group">
+            <button id="connect-btn">Connect</button>
+            <button id="disconnect-btn">Disconnect</button>
+        </div>
+        <div class="form-group">
+            <div id="current-balance-group">
+                <label>Wallet Balance:</label>
+                <span id="wallet-balance-span"> 0 ETH</span>
+            </div>
+            <input type="number" placeholder="Amount" id="deposit-input"/>
+            <button id="deposit-btn">Deposit</button>
+        </div>
+        <div class="form-group">
+            <div id="current-deposit-group">
+                <label>Deposit Balance:</label>
+                <span id="deposit-balance-span"> 0 ETH</span>
+            </div>
+            <input type="number" placeholder="Amount" id="withdraw-input"/>
+            <button id="withdraw-btn">Withdraw</button>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js" type="application/javascript"></script>
+    <script src="script.js"></script>
+</body>
+</html>
